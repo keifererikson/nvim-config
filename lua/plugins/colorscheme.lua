@@ -2,11 +2,10 @@ return {
   -- add cyberdream.nvim
   {
     "scottmckendry/cyberdream.nvim",
-    config = function()
-      require("cyberdream").setup({
-        transparent = true,
-      })
-    end,
+    opts = {
+      transparent = true,
+      borderless_telescope = false,
+    },
   },
   -- {
   --   "folke/tokyonight.nvim",
