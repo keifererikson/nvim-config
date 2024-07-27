@@ -3,7 +3,7 @@ return {
   dependencies = { "MunifTanjim/nui.nvim", "nvim-lua/plenary.nvim" },
   opts = {},
   command = "Hardtime",
-  event = "BufEnter",
+  event = "VeryLazy",
   keys = {
     { "n", "j", "<cmd>Hardtime<CR>", desc = "Hardtime" },
     { "n", "k", "<cmd>Hardtime<CR>", desc = "Hardtime" },
